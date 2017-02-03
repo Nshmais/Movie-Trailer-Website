@@ -1,8 +1,7 @@
 import fresh_tomatoes
 import media
 
-    # each movie will have four elements (title, plot, picture billboard, movie trailer)
-
+# each movie will have four elements (title, plot, picture billboard, movie trailer)
 toy_story = media.Movie("Toy Story",
                         "A story of a boy whom all of his toys come to life",
                         "http://img.lum.dolimg.com/v1/images/toy_story_that_time_forgot_keyart_300x450_fc2d5997.jpeg?region=0%2C0%2C300%2C450",
@@ -35,7 +34,8 @@ Avengers=media.Movie("The Avengers",
                       "https://www.youtube.com/watch?v=eOrNdBpGMv8")
 
 
-    # will make a list of all movies that we have
+# Save all the movies in to a list
 movies=[dead_pool, Avengers, Ironman, toy_story, Avatar, central_intelligence]
-    # movie list will be passed on to fresh_tomatoes to creat the html to play on screen
+
+# the movies list will be passed on to fresh_tomatoes to creat the html to play on screen
 fresh_tomatoes.open_movies_page(movies)

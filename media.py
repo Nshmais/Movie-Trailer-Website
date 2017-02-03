@@ -1,9 +1,8 @@
 import webbrowser
 
 class Movie():
-     #   """this is for documentation of this class can be called { print(media.Movie.__doc__)}  """
 
-   # VALID_RATING = ["G","PG","PG-13","R"]           #CLASS VARIABLE
+        # set the four elements of the movie (title, plot, poster, trailer)
     def __init__(self, movie_title, movie_storyline, poster_image, trailer_youtube):
         self.title = movie_title
         self.storyline = movie_storyline
