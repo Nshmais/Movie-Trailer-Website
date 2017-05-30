@@ -7,8 +7,9 @@ This movie web page is created to store my favorite movies, including:
  - box art
  - movie poster
  - YouTube link to the movie trailer.
+ <img src="Movie Trailer Website.png">
 
-## Run
+## Installing and run
 
  To open your favorite movies trailers
  1. Navigate to "fresh_tomatoes.html" file icon and double click on the icon.
